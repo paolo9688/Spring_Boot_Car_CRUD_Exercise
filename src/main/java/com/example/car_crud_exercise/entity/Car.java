@@ -19,4 +19,44 @@ public class Car {
     private CarType type;
 
     private CarColor color;
+
+    public Car() {}
+
+    public Car(String modelName, CarType type, CarColor color) {
+        this.modelName = modelName;
+        this.type = type;
+        this.color = color;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getModelName() {
+        return modelName;
+    }
+
+    public void setModelName(String modelName) {
+        this.modelName = modelName;
+    }
+
+    public CarType getType() {
+        return type;
+    }
+
+    public void setType(CarType type) {
+        this.type = type;
+    }
+
+    public CarColor getColor() {
+        return color;
+    }
+
+    public void setColor(CarColor color) {
+        this.color = color;
+    }
 }
